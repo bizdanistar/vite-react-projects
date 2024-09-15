@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  font-family: "Playwrite CU", cursive;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: rgb(252, 247, 240);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  justify-content: space-around;
+  font-size: 20px;
+  color: rgb(74, 74, 74);
+}
+.item button{
+  border: none;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(242, 13, 13);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.purchase{
+  text-decoration: line-through;
+}
+form{
+  width: 100vw;
+  display: block;
+  text-align: center;
+}
+.addTodo input{
+  font-size: 16px;
+  width: 50vw;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 0px 5px;
+}
+.addTodo button{
+  border: none;
+  width: 80px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(3, 147, 82);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+.title{
+  display: block;
+  text-align: center;
+  color: rgb(3, 147, 82);
+}
